@@ -10,6 +10,7 @@ export default function DictionarySearch() {
 
     function search(event) {
         event.preventDefault();
+        //documentation: https://www.shecodes.io/learn/apis/dictionary
         let key = `9ba41c950084bff0a243d378ot023fbe`;
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${key}`;
         axios.get(apiUrl).then(handleResponse);
