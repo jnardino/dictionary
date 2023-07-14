@@ -10,6 +10,11 @@ header {
     margin: 0 auto;
 }
 
+.synonyms {
+    display: inline-block;
+    margin-right: 5px;
+}
+
 
 footer {
     text-align: center;
