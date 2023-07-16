@@ -28,6 +28,23 @@ header:where(:hover, :focus-visible) {
     margin: 0 auto;
 }
 
+.results {
+    background-color:rgba(255, 255, 255, 0.651);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;    
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.phonetic {
+    color: dimgrey;
+}
+
+.result-type {
+    display: inline-block;
+    background: linear-gradient(0deg, rgba(255, 253, 131, 0.1), rgb(250, 246, 2));
+}
+
 .synonyms {
     display: inline-block;
     margin-right: 5px;

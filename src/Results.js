@@ -5,12 +5,12 @@ import Meanings from "./Meanings"
 export default function Results(props) {
    if (props.results) {
         return (
-            <div className="results">
+            <div>
                 <h2>{props.results.word}</h2>
-                <p>/{props.results.phonetic}/</p>
+                <p className="phonetic">/{props.results.phonetic}/</p>
                 {props.results.meanings.map(function(meaning, index) {
                     return (
-                        <div key={index}>
+                        <div className="results" key={index}>
                             <Meanings meaning={meaning} />
                         </div>
                     );
