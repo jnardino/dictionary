@@ -14,9 +14,11 @@ export default function App() {
           <DictionarySearch />
         </main>
         <footer>
-              <a href="https://github.com/jnardino" target="_blank" rel="noreferrer">Open source</a>
-              {" "}code made with 💜 by{" "}
-              <a href="https://www.linkedin.com/in/juliananardino/" target="_blank" rel="noreferrer">Juliana Nardino</a>
+          👉{" "}
+          <a href="https://github.com/jnardino" target="_blank" rel="noreferrer">Open source</a>
+          {" "}code made by{" "}
+          <a href="https://www.linkedin.com/in/juliananardino/" target="_blank" rel="noreferrer">Juliana Nardino</a>
+          {" "}👈
         </footer>
         </div>
     </div>
