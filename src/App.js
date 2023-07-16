@@ -15,7 +15,7 @@ export default function App() {
         </main>
         <footer>
               <a href="https://github.com/jnardino" target="_blank" rel="noreferrer">Open source</a>
-              code made with 💜 by 
+              {" "}code made with 💜 by{" "}
               <a href="https://www.linkedin.com/in/juliananardino/" target="_blank" rel="noreferrer">Juliana Nardino</a>
         </footer>
         </div>
