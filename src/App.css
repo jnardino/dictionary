@@ -23,7 +23,7 @@ header:where(:hover, :focus-visible) {
   background-position-x: left;
 }
 
-.dictionarySearch {
+.dictionary-search {
     display: block;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@ header:where(:hover, :focus-visible) {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;    
     border-radius: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .phonetic {
@@ -47,7 +47,6 @@ header:where(:hover, :focus-visible) {
 
 .synonyms {
     display: inline-block;
-    margin-right: 5px;
 }
 
 a {
@@ -66,5 +65,5 @@ a:where(:hover, :focus-visible) {
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin: 30px auto;
 }
