@@ -24,10 +24,13 @@ export default function DictionarySearch() {
     }
 
     return (
-        <div>
-            <form onSubmit={search}>
-                <input className="dictionary-search" type="search" autoFocus={true} onChange={handleKeywordChange}></input>
-            </form>
+        <div className="row search-space">
+                <form className="dictionary-search" onSubmit={search}>
+                    <input className="col-sm-11 form-control" placeholder="Enter a word..." type="search" autoFocus={true} onChange={handleKeywordChange}></input>
+                    <button	className="btn col-sm-01 btn-primary" type="submit" onSubmit={search}>
+                        Search
+                    </button>
+                </form>
             <Results results={results}/>
         </div>
     );
