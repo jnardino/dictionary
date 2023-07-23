@@ -11,8 +11,9 @@ Body {
 }
 
 h1 {
+    display: table;
     font-size: 80px;
-    margin: 30px auto;
+    margin: 40px auto;
     text-align: center;
     background: linear-gradient(0deg, rgba(255, 253, 131, 0.1), rgb(250, 246, 2)) no-repeat right bottom / 0;
     transition: background-size 350ms;
@@ -23,31 +24,56 @@ h1:where(:hover, :focus-visible) {
   background-position-x: left;
 }
 
-.search-space {
-    margin: 0 auto;
-    max-width: 800px;
+h2 {
+    display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 0;
 }
 
-.dictionary-search {
-    max-width: 600px;
-    margin: 0 auto;
+.search-bar {
+    padding: 10px;
+    padding-left: 0;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 0 0.25rem rgba(250, 246, 2);
+    border-color: #dee2e6;
+}
+
+.result-main {
+    margin-top: 40px;
 }
 
 .results {
     background-color:rgba(255, 255, 255, 0.651);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;    
     border-radius: 20px;
-    margin-bottom: 20px;
-    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.result-name { 
+    padding: 30px;
+}
+
+.result-list {
+    padding: 0 30px;
 }
 
 .phonetic {
     color: dimgrey;
 }
 
+.between-results {
+    margin-top: 30px;
+}
+
 .result-type {
     display: inline-block;
     background: linear-gradient(0deg, rgba(255, 253, 131, 0.1), rgb(250, 246, 2));
+}
+
+.definition {
+    font-weight: bold;
 }
 
 .synonyms {
@@ -70,5 +96,5 @@ a:where(:hover, :focus-visible) {
 
 footer {
     text-align: center;
-    margin: 30px auto;
+    margin-bottom: 30px;
 }
