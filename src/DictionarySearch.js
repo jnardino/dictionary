@@ -25,8 +25,8 @@ export default function DictionarySearch() {
 
     return (
         <div>
-            <form className="row" onSubmit={search}>
-                <div className="col-9 col-sm-10">
+            <form className="row main-search" onSubmit={search}>
+                <div className="col-9 col-sm-10 search-area">
                     <input className="form-control search-bar" placeholder="What word do you want to look up?" type="search" autoFocus={true} onChange={handleKeywordChange}></input>
                 </div>
                 <button	className="btn col-3 col-sm-2 btn-primary" type="submit" onSubmit={search}>

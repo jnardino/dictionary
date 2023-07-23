@@ -14,9 +14,9 @@ export default function Meanings(props) {
                 {props.meaning.synonyms !== null ? "Synonyms: " : ""}
                 {props.meaning.synonyms !== null ? props.meaning.synonyms.map(function(synonyms, index) {
                     return (
-                        <div className="synonyms" key={index}>
+                        <span className="synonyms" key={index}>
                             <span>{index === 0 ? "" : ", "}{synonyms}</span>
-                        </div>
+                        </span>
                     );
                 }) : null}
             </p>

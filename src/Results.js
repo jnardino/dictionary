@@ -5,7 +5,7 @@ import Meanings from "./Meanings"
 export default function Results(props) {
    if (props.results) {
         return (
-            <div className="row result-main">
+            <div className="row">
                 <div className="col-sm-12 results result-name">
                     <h2>{props.results.word}</h2>
                     <span className="phonetic">/{props.results.phonetic}/</span>
