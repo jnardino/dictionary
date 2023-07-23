@@ -13,7 +13,7 @@ Body {
 h1 {
     display: table;
     font-size: 80px;
-    margin: 40px auto;
+    margin: 80px auto;
     text-align: center;
     background: linear-gradient(0deg, rgba(255, 253, 131, 0.1), rgb(250, 246, 2)) no-repeat right bottom / 0;
     transition: background-size 350ms;
