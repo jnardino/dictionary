@@ -84,6 +84,16 @@ h2 {
     padding-bottom: 30px;
 }
 
+.result-images {
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.images {
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
 .phonetic {
     color: dimgrey;
 }
